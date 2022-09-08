@@ -1,0 +1,113 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name KYC_SDK
+import AVFoundation
+import AVKit
+import CoreImage
+import CoreMotion
+import Foundation
+@_exported import KYC_SDK
+import Swift
+import UIKit
+import Vision
+import WebKit
+import _Concurrency
+public protocol KycCoreProtocol {
+  func onCompleted()
+  func onCancelled()
+  func onFailure(exception: KYC_SDK.KycCoreSdkException?)
+  func onPermissionEvent(permissionEvents: KYC_SDK.PermissionEvents)
+}
+@objc @_inheritsConvenienceInitializers final public class KycCore : ObjectiveC.NSObject {
+  public static func getInstance() -> KYC_SDK.KycCore
+  final public func apply(navigationController: UIKit.UINavigationController, delegate: KYC_SDK.KycCoreProtocol?, signatureKey: Swift.String, environment: KYC_SDK.Environment)
+  final public func startKyc()
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension KYC_SDK.KycCore : KYC_SDK.KycViewControllerDelegate {
+  final public func onCompleted()
+  final public func onCancelled()
+  final public func onFailure(exception: KYC_SDK.KycCoreSdkException?)
+  final public func onPermissionEvent(permissionEvents: KYC_SDK.PermissionEvents)
+}
+public enum PermissionEvents {
+  case REQUESTED
+  case GRANTED
+  case DENIED
+  case SHOW_REQUEST_PERMISSION_RATIONALE
+  public static func == (a: KYC_SDK.PermissionEvents, b: KYC_SDK.PermissionEvents) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum CustomEvent : Swift.String {
+  case CKYCPhotoUploaded
+  case CKYCPhotoCanceled
+  case CKYCPhotoError
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum KycCoreSdkException : Swift.Int {
+  case REASON_CAMERA_DISCONNECTED
+  case REASON_CAMERA_FAILED_TO_CONNECT
+  case REASON_CAMERA_FAILED_TO_START_PREVIEW
+  case REASON_CAMERA_PICTURE_FAILED
+  case REASON_CAMERA_VIDEO_FAILED
+  case REASON_KYC_CORE_NOT_INITIALIZED
+  case REASON_NO_CAMERA
+  case REASON_SIGNATURE_KEY_NULL
+  case REASON_UNKNOWN
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum ImageScannerControllerError : Swift.Error {
+  case authorization
+  case inputDevice
+  case capture
+  case ciImageCreation
+  public static func == (a: KYC_SDK.ImageScannerControllerError, b: KYC_SDK.ImageScannerControllerError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension KYC_SDK.ImageScannerControllerError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+public protocol KycViewControllerDelegate {
+  func onCompleted()
+  func onCancelled()
+  func onFailure(exception: KYC_SDK.KycCoreSdkException?)
+  func onPermissionEvent(permissionEvents: KYC_SDK.PermissionEvents)
+}
+public enum Environment {
+  case STAGING
+  case RELEASE
+  public static func == (a: KYC_SDK.Environment, b: KYC_SDK.Environment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension KYC_SDK.PermissionEvents : Swift.Equatable {}
+extension KYC_SDK.PermissionEvents : Swift.Hashable {}
+extension KYC_SDK.CustomEvent : Swift.Equatable {}
+extension KYC_SDK.CustomEvent : Swift.Hashable {}
+extension KYC_SDK.CustomEvent : Swift.RawRepresentable {}
+extension KYC_SDK.KycCoreSdkException : Swift.Equatable {}
+extension KYC_SDK.KycCoreSdkException : Swift.Hashable {}
+extension KYC_SDK.KycCoreSdkException : Swift.RawRepresentable {}
+extension KYC_SDK.ImageScannerControllerError : Swift.Equatable {}
+extension KYC_SDK.ImageScannerControllerError : Swift.Hashable {}
+extension KYC_SDK.Environment : Swift.Equatable {}
+extension KYC_SDK.Environment : Swift.Hashable {}

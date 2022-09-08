@@ -1,0 +1,6 @@
+module Pods_KYC_DEMO_WITH_XCFRAMEWORK {
+  umbrella header "Pods-KYC_DEMO_WITH_XCFRAMEWORK-umbrella.h"
+
+  export *
+  module * { export * }
+}

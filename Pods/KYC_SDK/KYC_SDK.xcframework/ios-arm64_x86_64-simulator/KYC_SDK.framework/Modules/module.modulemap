@@ -1,0 +1,11 @@
+framework module KYC_SDK {
+  umbrella header "KYC_SDK.h"
+
+  export *
+  module * { export * }
+}
+
+module KYC_SDK.Swift {
+    header "KYC_SDK-Swift.h"
+    requires objc
+}

@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C5554451CFED6E05A6AE931 /* libPods-KYC_DEMO_WITH_XCFRAMEWORK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC0BFD9A723E740F33F5C28 /* libPods-KYC_DEMO_WITH_XCFRAMEWORK.a */; };
+		CCC8F1E828CA631C004C150C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC8F1E728CA631C004C150C /* AppDelegate.swift */; };
+		CCC8F1EA28CA631C004C150C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC8F1E928CA631C004C150C /* SceneDelegate.swift */; };
+		CCC8F1EC28CA631C004C150C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC8F1EB28CA631C004C150C /* ViewController.swift */; };
+		CCC8F1EF28CA631C004C150C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC8F1ED28CA631C004C150C /* Main.storyboard */; };
+		CCC8F1F128CA631E004C150C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCC8F1F028CA631E004C150C /* Assets.xcassets */; };
+		CCC8F1F428CA631E004C150C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC8F1F228CA631E004C150C /* LaunchScreen.storyboard */; };
+		CCC8F1FF28CA631E004C150C /* KYC_DEMO_WITH_XCFRAMEWORKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC8F1FE28CA631E004C150C /* KYC_DEMO_WITH_XCFRAMEWORKTests.swift */; };
+		CCC8F20928CA631E004C150C /* KYC_DEMO_WITH_XCFRAMEWORKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC8F20828CA631E004C150C /* KYC_DEMO_WITH_XCFRAMEWORKUITests.swift */; };
+		CCC8F20B28CA631E004C150C /* KYC_DEMO_WITH_XCFRAMEWORKUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC8F20A28CA631E004C150C /* KYC_DEMO_WITH_XCFRAMEWORKUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCC8F1FB28CA631E004C150C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCC8F1DC28CA631C004C150C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCC8F1E328CA631C004C150C;
+			remoteInfo = KYC_DEMO_WITH_XCFRAMEWORK;
+		};
+		CCC8F20528CA631E004C150C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCC8F1DC28CA631C004C150C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCC8F1E328CA631C004C150C;
+			remoteInfo = KYC_DEMO_WITH_XCFRAMEWORK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C4646028E6AB6EB06433F36 /* Pods-KYC_DEMO_WITH_XCFRAMEWORK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYC_DEMO_WITH_XCFRAMEWORK.debug.xcconfig"; path = "Target Support Files/Pods-KYC_DEMO_WITH_XCFRAMEWORK/Pods-KYC_DEMO_WITH_XCFRAMEWORK.debug.xcconfig"; sourceTree = "<group>"; };
+		727741935775B1B54044DD5B /* Pods-KYC_DEMO_WITH_XCFRAMEWORK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYC_DEMO_WITH_XCFRAMEWORK.release.xcconfig"; path = "Target Support Files/Pods-KYC_DEMO_WITH_XCFRAMEWORK/Pods-KYC_DEMO_WITH_XCFRAMEWORK.release.xcconfig"; sourceTree = "<group>"; };
+		9AC0BFD9A723E740F33F5C28 /* libPods-KYC_DEMO_WITH_XCFRAMEWORK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KYC_DEMO_WITH_XCFRAMEWORK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC8F1E428CA631C004C150C /* KYC_DEMO_WITH_XCFRAMEWORK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KYC_DEMO_WITH_XCFRAMEWORK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC8F1E728CA631C004C150C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCC8F1E928CA631C004C150C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CCC8F1EB28CA631C004C150C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCC8F1EE28CA631C004C150C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCC8F1F028CA631E004C150C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCC8F1F328CA631E004C150C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCC8F1F528CA631E004C150C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCC8F1FA28CA631E004C150C /* KYC_DEMO_WITH_XCFRAMEWORKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KYC_DEMO_WITH_XCFRAMEWORKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC8F1FE28CA631E004C150C /* KYC_DEMO_WITH_XCFRAMEWORKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYC_DEMO_WITH_XCFRAMEWORKTests.swift; sourceTree = "<group>"; };
+		CCC8F20428CA631E004C150C /* KYC_DEMO_WITH_XCFRAMEWORKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KYC_DEMO_WITH_XCFRAMEWORKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC8F20828CA631E004C150C /* KYC_DEMO_WITH_XCFRAMEWORKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYC_DEMO_WITH_XCFRAMEWORKUITests.swift; sourceTree = "<group>"; };
+		CCC8F20A28CA631E004C150C /* KYC_DEMO_WITH_XCFRAMEWORKUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYC_DEMO_WITH_XCFRAMEWORKUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCC8F1E128CA631C004C150C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C5554451CFED6E05A6AE931 /* libPods-KYC_DEMO_WITH_XCFRAMEWORK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC8F1F728CA631E004C150C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC8F20128CA631E004C150C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37F8AE51359D23F564870764 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AC0BFD9A723E740F33F5C28 /* libPods-KYC_DEMO_WITH_XCFRAMEWORK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCC8F1DB28CA631C004C150C = {
+			isa = PBXGroup;
+			children = (
+				CCC8F1E628CA631C004C150C /* KYC_DEMO_WITH_XCFRAMEWORK */,
+				CCC8F1FD28CA631E004C150C /* KYC_DEMO_WITH_XCFRAMEWORKTests */,
+				CCC8F20728CA631E004C150C /* KYC_DEMO_WITH_XCFRAMEWORKUITests */,
+				CCC8F1E528CA631C004C150C /* Products */,
+				DF50598D2E535C4C7C6E1B66 /* Pods */,
+				37F8AE51359D23F564870764 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CCC8F1E528CA631C004C150C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCC8F1E428CA631C004C150C /* KYC_DEMO_WITH_XCFRAMEWORK.app */,
+				CCC8F1FA28CA631E004C150C /* KYC_DEMO_WITH_XCFRAMEWORKTests.xctest */,
+				CCC8F20428CA631E004C150C /* KYC_DEMO_WITH_XCFRAMEWORKUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCC8F1E628CA631C004C150C /* KYC_DEMO_WITH_XCFRAMEWORK */ = {
+			isa = PBXGroup;
+			children = (
+				CCC8F1E728CA631C004C150C /* AppDelegate.swift */,
+				CCC8F1E928CA631C004C150C /* SceneDelegate.swift */,
+				CCC8F1EB28CA631C004C150C /* ViewController.swift */,
+				CCC8F1ED28CA631C004C150C /* Main.storyboard */,
+				CCC8F1F028CA631E004C150C /* Assets.xcassets */,
+				CCC8F1F228CA631E004C150C /* LaunchScreen.storyboard */,
+				CCC8F1F528CA631E004C150C /* Info.plist */,
+			);
+			path = KYC_DEMO_WITH_XCFRAMEWORK;
+			sourceTree = "<group>";
+		};
+		CCC8F1FD28CA631E004C150C /* KYC_DEMO_WITH_XCFRAMEWORKTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCC8F1FE28CA631E004C150C /* KYC_DEMO_WITH_XCFRAMEWORKTests.swift */,
+			);
+			path = KYC_DEMO_WITH_XCFRAMEWORKTests;
+			sourceTree = "<group>";
+		};
+		CCC8F20728CA631E004C150C /* KYC_DEMO_WITH_XCFRAMEWORKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCC8F20828CA631E004C150C /* KYC_DEMO_WITH_XCFRAMEWORKUITests.swift */,
+				CCC8F20A28CA631E004C150C /* KYC_DEMO_WITH_XCFRAMEWORKUITestsLaunchTests.swift */,
+			);
+			path = KYC_DEMO_WITH_XCFRAMEWORKUITests;
+			sourceTree = "<group>";
+		};
+		DF50598D2E535C4C7C6E1B66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C4646028E6AB6EB06433F36 /* Pods-KYC_DEMO_WITH_XCFRAMEWORK.debug.xcconfig */,
+				727741935775B1B54044DD5B /* Pods-KYC_DEMO_WITH_XCFRAMEWORK.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCC8F1E328CA631C004C150C /* KYC_DEMO_WITH_XCFRAMEWORK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCC8F20E28CA631E004C150C /* Build configuration list for PBXNativeTarget "KYC_DEMO_WITH_XCFRAMEWORK" */;
+			buildPhases = (
+				277EF737CB1A0ADD9ECC9ABD /* [CP] Check Pods Manifest.lock */,
+				CCC8F1E028CA631C004C150C /* Sources */,
+				CCC8F1E128CA631C004C150C /* Frameworks */,
+				CCC8F1E228CA631C004C150C /* Resources */,
+				613153247EC1B468C1B5100A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KYC_DEMO_WITH_XCFRAMEWORK;
+			productName = KYC_DEMO_WITH_XCFRAMEWORK;
+			productReference = CCC8F1E428CA631C004C150C /* KYC_DEMO_WITH_XCFRAMEWORK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCC8F1F928CA631E004C150C /* KYC_DEMO_WITH_XCFRAMEWORKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCC8F21128CA631E004C150C /* Build configuration list for PBXNativeTarget "KYC_DEMO_WITH_XCFRAMEWORKTests" */;
+			buildPhases = (
+				CCC8F1F628CA631E004C150C /* Sources */,
+				CCC8F1F728CA631E004C150C /* Frameworks */,
+				CCC8F1F828CA631E004C150C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCC8F1FC28CA631E004C150C /* PBXTargetDependency */,
+			);
+			name = KYC_DEMO_WITH_XCFRAMEWORKTests;
+			productName = KYC_DEMO_WITH_XCFRAMEWORKTests;
+			productReference = CCC8F1FA28CA631E004C150C /* KYC_DEMO_WITH_XCFRAMEWORKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCC8F20328CA631E004C150C /* KYC_DEMO_WITH_XCFRAMEWORKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCC8F21428CA631E004C150C /* Build configuration list for PBXNativeTarget "KYC_DEMO_WITH_XCFRAMEWORKUITests" */;
+			buildPhases = (
+				CCC8F20028CA631E004C150C /* Sources */,
+				CCC8F20128CA631E004C150C /* Frameworks */,
+				CCC8F20228CA631E004C150C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCC8F20628CA631E004C150C /* PBXTargetDependency */,
+			);
+			name = KYC_DEMO_WITH_XCFRAMEWORKUITests;
+			productName = KYC_DEMO_WITH_XCFRAMEWORKUITests;
+			productReference = CCC8F20428CA631E004C150C /* KYC_DEMO_WITH_XCFRAMEWORKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCC8F1DC28CA631C004C150C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					CCC8F1E328CA631C004C150C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					CCC8F1F928CA631E004C150C = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CCC8F1E328CA631C004C150C;
+					};
+					CCC8F20328CA631E004C150C = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CCC8F1E328CA631C004C150C;
+					};
+				};
+			};
+			buildConfigurationList = CCC8F1DF28CA631C004C150C /* Build configuration list for PBXProject "KYC_DEMO_WITH_XCFRAMEWORK" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCC8F1DB28CA631C004C150C;
+			productRefGroup = CCC8F1E528CA631C004C150C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCC8F1E328CA631C004C150C /* KYC_DEMO_WITH_XCFRAMEWORK */,
+				CCC8F1F928CA631E004C150C /* KYC_DEMO_WITH_XCFRAMEWORKTests */,
+				CCC8F20328CA631E004C150C /* KYC_DEMO_WITH_XCFRAMEWORKUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCC8F1E228CA631C004C150C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC8F1F428CA631E004C150C /* LaunchScreen.storyboard in Resources */,
+				CCC8F1F128CA631E004C150C /* Assets.xcassets in Resources */,
+				CCC8F1EF28CA631C004C150C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC8F1F828CA631E004C150C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC8F20228CA631E004C150C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		277EF737CB1A0ADD9ECC9ABD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KYC_DEMO_WITH_XCFRAMEWORK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		613153247EC1B468C1B5100A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KYC_DEMO_WITH_XCFRAMEWORK/Pods-KYC_DEMO_WITH_XCFRAMEWORK-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KYC_DEMO_WITH_XCFRAMEWORK/Pods-KYC_DEMO_WITH_XCFRAMEWORK-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KYC_DEMO_WITH_XCFRAMEWORK/Pods-KYC_DEMO_WITH_XCFRAMEWORK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCC8F1E028CA631C004C150C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC8F1EC28CA631C004C150C /* ViewController.swift in Sources */,
+				CCC8F1E828CA631C004C150C /* AppDelegate.swift in Sources */,
+				CCC8F1EA28CA631C004C150C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC8F1F628CA631E004C150C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC8F1FF28CA631E004C150C /* KYC_DEMO_WITH_XCFRAMEWORKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC8F20028CA631E004C150C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC8F20928CA631E004C150C /* KYC_DEMO_WITH_XCFRAMEWORKUITests.swift in Sources */,
+				CCC8F20B28CA631E004C150C /* KYC_DEMO_WITH_XCFRAMEWORKUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCC8F1FC28CA631E004C150C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCC8F1E328CA631C004C150C /* KYC_DEMO_WITH_XCFRAMEWORK */;
+			targetProxy = CCC8F1FB28CA631E004C150C /* PBXContainerItemProxy */;
+		};
+		CCC8F20628CA631E004C150C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCC8F1E328CA631C004C150C /* KYC_DEMO_WITH_XCFRAMEWORK */;
+			targetProxy = CCC8F20528CA631E004C150C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCC8F1ED28CA631C004C150C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCC8F1EE28CA631C004C150C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCC8F1F228CA631E004C150C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCC8F1F328CA631E004C150C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCC8F20C28CA631E004C150C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCC8F20D28CA631E004C150C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCC8F20F28CA631E004C150C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C4646028E6AB6EB06433F36 /* Pods-KYC_DEMO_WITH_XCFRAMEWORK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H22J6LYLAU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KYC_DEMO_WITH_XCFRAMEWORK/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow KYC_DEMO to take pictures and record video?";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.onrglr.KYC-DEMO-WITH-XCFRAMEWORK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCC8F21028CA631E004C150C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 727741935775B1B54044DD5B /* Pods-KYC_DEMO_WITH_XCFRAMEWORK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H22J6LYLAU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KYC_DEMO_WITH_XCFRAMEWORK/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow KYC_DEMO to take pictures and record video?";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.onrglr.KYC-DEMO-WITH-XCFRAMEWORK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CCC8F21228CA631E004C150C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H22J6LYLAU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.onrglr.KYC-DEMO-WITH-XCFRAMEWORKTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KYC_DEMO_WITH_XCFRAMEWORK.app/KYC_DEMO_WITH_XCFRAMEWORK";
+			};
+			name = Debug;
+		};
+		CCC8F21328CA631E004C150C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H22J6LYLAU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.onrglr.KYC-DEMO-WITH-XCFRAMEWORKTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KYC_DEMO_WITH_XCFRAMEWORK.app/KYC_DEMO_WITH_XCFRAMEWORK";
+			};
+			name = Release;
+		};
+		CCC8F21528CA631E004C150C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H22J6LYLAU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.onrglr.KYC-DEMO-WITH-XCFRAMEWORKUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KYC_DEMO_WITH_XCFRAMEWORK;
+			};
+			name = Debug;
+		};
+		CCC8F21628CA631E004C150C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H22J6LYLAU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.onrglr.KYC-DEMO-WITH-XCFRAMEWORKUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KYC_DEMO_WITH_XCFRAMEWORK;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCC8F1DF28CA631C004C150C /* Build configuration list for PBXProject "KYC_DEMO_WITH_XCFRAMEWORK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC8F20C28CA631E004C150C /* Debug */,
+				CCC8F20D28CA631E004C150C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCC8F20E28CA631E004C150C /* Build configuration list for PBXNativeTarget "KYC_DEMO_WITH_XCFRAMEWORK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC8F20F28CA631E004C150C /* Debug */,
+				CCC8F21028CA631E004C150C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCC8F21128CA631E004C150C /* Build configuration list for PBXNativeTarget "KYC_DEMO_WITH_XCFRAMEWORKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC8F21228CA631E004C150C /* Debug */,
+				CCC8F21328CA631E004C150C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCC8F21428CA631E004C150C /* Build configuration list for PBXNativeTarget "KYC_DEMO_WITH_XCFRAMEWORKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC8F21528CA631E004C150C /* Debug */,
+				CCC8F21628CA631E004C150C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCC8F1DC28CA631C004C150C /* Project object */;
+}

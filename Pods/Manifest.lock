@@ -1,21 +1,16 @@
 PODS:
-  - KYC_SDK (0.1)
+  - KYC_SDK (0.2)
 
 DEPENDENCIES:
-  - KYC_SDK (from `https://github.com/wangosoft/KYC_SDK_XCFRAMEWORK.git`)
+  - KYC_SDK (~> 0.2)
 
-EXTERNAL SOURCES:
-  KYC_SDK:
-    :git: https://github.com/wangosoft/KYC_SDK_XCFRAMEWORK.git
-
-CHECKOUT OPTIONS:
-  KYC_SDK:
-    :commit: 03762482f94f6770bc896cb6c76004cb02f825dd
-    :git: https://github.com/wangosoft/KYC_SDK_XCFRAMEWORK.git
+SPEC REPOS:
+  trunk:
+    - KYC_SDK
 
 SPEC CHECKSUMS:
-  KYC_SDK: 98df1e152974788bee8e81d0432f9186414fc843
+  KYC_SDK: ba65699fa17d9d3f2a45cf31ee2c5957602b8c3b
 
-PODFILE CHECKSUM: f5d5dcbd7db423b387e34c58e9f6041a7002e32c
+PODFILE CHECKSUM: ef3d05a4caf0f756da095f275dbd75136d5324c6
 
 COCOAPODS: 1.11.2

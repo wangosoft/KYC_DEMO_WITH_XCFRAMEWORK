@@ -224,6 +224,7 @@ SWIFT_CLASS("_TtC7KYC_SDK7KycCore")
 
 
 
+
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
 #endif
@@ -446,6 +447,7 @@ SWIFT_CLASS("_TtC7KYC_SDK7KycCore")
 @interface KycCore : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 

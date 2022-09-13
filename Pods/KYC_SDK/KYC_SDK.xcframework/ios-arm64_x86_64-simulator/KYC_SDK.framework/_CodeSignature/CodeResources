@@ -26,23 +26,23 @@
 		</data>
 		<key>Capture.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib/objects-14.0+.nib</key>
 		<data>
-		ikARHJxpjqJ7UQDoXadZNz/cLZ4=
+		+7z5czBf197FxTdq7nYJ9dwHlZ0=
 		</data>
 		<key>Capture.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib/runtime.nib</key>
 		<data>
-		ACkea/TmD7db/tgAT4NudOTi9E4=
+		+7z5czBf197FxTdq7nYJ9dwHlZ0=
 		</data>
 		<key>Capture.storyboardc/nYw-50-66K-view-Z2w-No-bvI.nib/objects-14.0+.nib</key>
 		<data>
-		6vjJW6N33xb7XCXTrveApuOxuiA=
+		yNF/BtZJ+pzBw924xidUvVeZcWI=
 		</data>
 		<key>Capture.storyboardc/nYw-50-66K-view-Z2w-No-bvI.nib/runtime.nib</key>
 		<data>
-		6vjJW6N33xb7XCXTrveApuOxuiA=
+		yNF/BtZJ+pzBw924xidUvVeZcWI=
 		</data>
 		<key>Headers/KYC_SDK-Swift.h</key>
 		<data>
-		Dncv2nlk8SefY24JSWmS++P231c=
+		8CX0uWm1b+HYKGPl5ix6aIq1n2k=
 		</data>
 		<key>Headers/KYC_SDK.h</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Modules/KYC_SDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		aQLuN9UEEE4hN9DH1ZGJRo4hR8Y=
+		fMeSrZ+f27cKM2wqkXDk0qhGhDs=
 		</data>
 		<key>Modules/KYC_SDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Modules/KYC_SDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		aQLuN9UEEE4hN9DH1ZGJRo4hR8Y=
+		fMeSrZ+f27cKM2wqkXDk0qhGhDs=
 		</data>
 		<key>Modules/KYC_SDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>Modules/KYC_SDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zXjFQiKlZxGmqSHSheMmQaVDlrI=
+		kEBzTbU2exErex2aeImB5RGShoU=
 		</data>
 		<key>Modules/KYC_SDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -110,11 +110,23 @@
 		</data>
 		<key>Modules/KYC_SDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		zXjFQiKlZxGmqSHSheMmQaVDlrI=
+		kEBzTbU2exErex2aeImB5RGShoU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		mD5gqU4zprVCW+NVq34N5PpqcSc=
+		</data>
+		<key>return.png</key>
+		<data>
+		QZ0quN8IYQfA02fxMMImcUBfufE=
+		</data>
+		<key>return@2x.png</key>
+		<data>
+		/VxGRpEtvDXXsDckmm+ylNQEocY=
+		</data>
+		<key>return@3x.png</key>
+		<data>
+		AkxMr5FZEgdLmQ9563DjbAegfPM=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -158,35 +170,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6M/sMWICGFDWOx7bzI8m3wr1wcyRJBEesl9TXl/qdJc=
+			LBpwFVMB9lMncxP8XewnHerT2iFaA6Y7dSRc5QHr6P4=
 			</data>
 		</dict>
 		<key>Capture.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			475zcyKJ7jrPan+pU2jcEMjKA0ZF7iS7o7+piXGk0y0=
+			LBpwFVMB9lMncxP8XewnHerT2iFaA6Y7dSRc5QHr6P4=
 			</data>
 		</dict>
 		<key>Capture.storyboardc/nYw-50-66K-view-Z2w-No-bvI.nib/objects-14.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/bC7fA7dReP3DovyEf2y46ejGTJzIbZhJMpwYg2dqOE=
+			/c/Kv4Nw27BNlyJrBn+1FTEIKo6ZbatgyjTTuHh3lEc=
 			</data>
 		</dict>
 		<key>Capture.storyboardc/nYw-50-66K-view-Z2w-No-bvI.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/bC7fA7dReP3DovyEf2y46ejGTJzIbZhJMpwYg2dqOE=
+			/c/Kv4Nw27BNlyJrBn+1FTEIKo6ZbatgyjTTuHh3lEc=
 			</data>
 		</dict>
 		<key>Headers/KYC_SDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fsfNceqoUsT/a21Yb+hMh83SizLsCQf9Jsl3wIUKEGA=
+			s3ZUJI0vAm8QLR2bTqJDvbhJ65/aLn5G1LWJ6Goi9BI=
 			</data>
 		</dict>
 		<key>Headers/KYC_SDK.h</key>
@@ -235,7 +247,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4qpx/aa6RCqC2+grp2auLamOElbpiURUJOcw+5BAvko=
+			jCAM2qXB3fMtred+zNxHcM1oJDcpu4kOdF0E31hLhPw=
 			</data>
 		</dict>
 		<key>Modules/KYC_SDK.swiftmodule/arm64.swiftdoc</key>
@@ -256,7 +268,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4qpx/aa6RCqC2+grp2auLamOElbpiURUJOcw+5BAvko=
+			jCAM2qXB3fMtred+zNxHcM1oJDcpu4kOdF0E31hLhPw=
 			</data>
 		</dict>
 		<key>Modules/KYC_SDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -277,7 +289,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vxe1kxz0F0Tn9xjxQI0YgMBng4WV4HWYHQYPmazElo4=
+			+4aizm85rvES1Rek7NzxG8VsvFsTc2GOJx3arkrsZR4=
 			</data>
 		</dict>
 		<key>Modules/KYC_SDK.swiftmodule/x86_64.swiftdoc</key>
@@ -298,7 +310,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vxe1kxz0F0Tn9xjxQI0YgMBng4WV4HWYHQYPmazElo4=
+			+4aizm85rvES1Rek7NzxG8VsvFsTc2GOJx3arkrsZR4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -306,6 +318,27 @@
 			<key>hash2</key>
 			<data>
 			YpzFbF30S9qweoH+EaAzAA/BNL4bsBynYiUv9/7iuv0=
+			</data>
+		</dict>
+		<key>return.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1Gbr/6fIsL4Fn3eYDpIskyg+nFpX8TWJhWKuhIWLZSk=
+			</data>
+		</dict>
+		<key>return@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tdZ6xAeWkytIFxKO/qlT3bW/78CBE83T1/q9ZFDa488=
+			</data>
+		</dict>
+		<key>return@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vwDZcs6dZYHPOwAXroZEY2cR72wemD3wzmf5deQIPV8=
 			</data>
 		</dict>
 	</dict>

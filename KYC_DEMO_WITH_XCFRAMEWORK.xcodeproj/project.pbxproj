@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36B8F89DF56E240B8166F2FE /* libPods-KYC_DEMO_WITH_XCFRAMEWORK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB82356E6F0018E03A80D9D4 /* libPods-KYC_DEMO_WITH_XCFRAMEWORK.a */; };
 		CCC8F1E828CA631C004C150C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC8F1E728CA631C004C150C /* AppDelegate.swift */; };
 		CCC8F1EA28CA631C004C150C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC8F1E928CA631C004C150C /* SceneDelegate.swift */; };
 		CCC8F1EC28CA631C004C150C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC8F1EB28CA631C004C150C /* ViewController.swift */; };
@@ -16,7 +17,6 @@
 		CCC8F1FF28CA631E004C150C /* KYC_DEMO_WITH_XCFRAMEWORKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC8F1FE28CA631E004C150C /* KYC_DEMO_WITH_XCFRAMEWORKTests.swift */; };
 		CCC8F20928CA631E004C150C /* KYC_DEMO_WITH_XCFRAMEWORKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC8F20828CA631E004C150C /* KYC_DEMO_WITH_XCFRAMEWORKUITests.swift */; };
 		CCC8F20B28CA631E004C150C /* KYC_DEMO_WITH_XCFRAMEWORKUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC8F20A28CA631E004C150C /* KYC_DEMO_WITH_XCFRAMEWORKUITestsLaunchTests.swift */; };
-		CE9A955058412351150FA1DE /* libPods-KYC_DEMO_WITH_XCFRAMEWORK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D5985EEE52BCC4758BF9CE /* libPods-KYC_DEMO_WITH_XCFRAMEWORK.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		174416BFE6297B3A408689F9 /* Pods-KYC_DEMO_WITH_XCFRAMEWORK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYC_DEMO_WITH_XCFRAMEWORK.release.xcconfig"; path = "Target Support Files/Pods-KYC_DEMO_WITH_XCFRAMEWORK/Pods-KYC_DEMO_WITH_XCFRAMEWORK.release.xcconfig"; sourceTree = "<group>"; };
-		24D5985EEE52BCC4758BF9CE /* libPods-KYC_DEMO_WITH_XCFRAMEWORK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KYC_DEMO_WITH_XCFRAMEWORK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A62ACDCACCAF47229FE19D89 /* Pods-KYC_DEMO_WITH_XCFRAMEWORK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYC_DEMO_WITH_XCFRAMEWORK.debug.xcconfig"; path = "Target Support Files/Pods-KYC_DEMO_WITH_XCFRAMEWORK/Pods-KYC_DEMO_WITH_XCFRAMEWORK.debug.xcconfig"; sourceTree = "<group>"; };
+		5813999A41532194B88782BE /* Pods-KYC_DEMO_WITH_XCFRAMEWORK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYC_DEMO_WITH_XCFRAMEWORK.release.xcconfig"; path = "Target Support Files/Pods-KYC_DEMO_WITH_XCFRAMEWORK/Pods-KYC_DEMO_WITH_XCFRAMEWORK.release.xcconfig"; sourceTree = "<group>"; };
+		786C5FDAD99B80281FA94BEC /* Pods-KYC_DEMO_WITH_XCFRAMEWORK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYC_DEMO_WITH_XCFRAMEWORK.debug.xcconfig"; path = "Target Support Files/Pods-KYC_DEMO_WITH_XCFRAMEWORK/Pods-KYC_DEMO_WITH_XCFRAMEWORK.debug.xcconfig"; sourceTree = "<group>"; };
 		CCC8F1E428CA631C004C150C /* KYC_DEMO_WITH_XCFRAMEWORK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KYC_DEMO_WITH_XCFRAMEWORK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC8F1E728CA631C004C150C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCC8F1E928CA631C004C150C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +52,7 @@
 		CCC8F20428CA631E004C150C /* KYC_DEMO_WITH_XCFRAMEWORKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KYC_DEMO_WITH_XCFRAMEWORKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC8F20828CA631E004C150C /* KYC_DEMO_WITH_XCFRAMEWORKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYC_DEMO_WITH_XCFRAMEWORKUITests.swift; sourceTree = "<group>"; };
 		CCC8F20A28CA631E004C150C /* KYC_DEMO_WITH_XCFRAMEWORKUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYC_DEMO_WITH_XCFRAMEWORKUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DB82356E6F0018E03A80D9D4 /* libPods-KYC_DEMO_WITH_XCFRAMEWORK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KYC_DEMO_WITH_XCFRAMEWORK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE9A955058412351150FA1DE /* libPods-KYC_DEMO_WITH_XCFRAMEWORK.a in Frameworks */,
+				36B8F89DF56E240B8166F2FE /* libPods-KYC_DEMO_WITH_XCFRAMEWORK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,17 +84,16 @@
 		44DF7930F591300B30834341 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A62ACDCACCAF47229FE19D89 /* Pods-KYC_DEMO_WITH_XCFRAMEWORK.debug.xcconfig */,
-				174416BFE6297B3A408689F9 /* Pods-KYC_DEMO_WITH_XCFRAMEWORK.release.xcconfig */,
+				786C5FDAD99B80281FA94BEC /* Pods-KYC_DEMO_WITH_XCFRAMEWORK.debug.xcconfig */,
+				5813999A41532194B88782BE /* Pods-KYC_DEMO_WITH_XCFRAMEWORK.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		A66E31E0B6176D2462878457 /* Frameworks */ = {
+		72BF615E484D9BD403ECE00E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				24D5985EEE52BCC4758BF9CE /* libPods-KYC_DEMO_WITH_XCFRAMEWORK.a */,
+				DB82356E6F0018E03A80D9D4 /* libPods-KYC_DEMO_WITH_XCFRAMEWORK.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -107,7 +106,7 @@
 				CCC8F20728CA631E004C150C /* KYC_DEMO_WITH_XCFRAMEWORKUITests */,
 				CCC8F1E528CA631C004C150C /* Products */,
 				44DF7930F591300B30834341 /* Pods */,
-				A66E31E0B6176D2462878457 /* Frameworks */,
+				72BF615E484D9BD403ECE00E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,11 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCC8F20E28CA631E004C150C /* Build configuration list for PBXNativeTarget "KYC_DEMO_WITH_XCFRAMEWORK" */;
 			buildPhases = (
-				DC9695D6E9FF1AF785D41308 /* [CP] Check Pods Manifest.lock */,
+				9C2A498F7B9BF05576A0FF63 /* [CP] Check Pods Manifest.lock */,
 				CCC8F1E028CA631C004C150C /* Sources */,
 				CCC8F1E128CA631C004C150C /* Frameworks */,
 				CCC8F1E228CA631C004C150C /* Resources */,
-				F0D7EEA45607793B6DE9EAF3 /* [CP] Embed Pods Frameworks */,
+				3D515FE8631A94E700BBA000 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -281,7 +280,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		DC9695D6E9FF1AF785D41308 /* [CP] Check Pods Manifest.lock */ = {
+		3D515FE8631A94E700BBA000 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KYC_DEMO_WITH_XCFRAMEWORK/Pods-KYC_DEMO_WITH_XCFRAMEWORK-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KYC_DEMO_WITH_XCFRAMEWORK/Pods-KYC_DEMO_WITH_XCFRAMEWORK-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KYC_DEMO_WITH_XCFRAMEWORK/Pods-KYC_DEMO_WITH_XCFRAMEWORK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C2A498F7B9BF05576A0FF63 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -301,23 +317,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F0D7EEA45607793B6DE9EAF3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KYC_DEMO_WITH_XCFRAMEWORK/Pods-KYC_DEMO_WITH_XCFRAMEWORK-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KYC_DEMO_WITH_XCFRAMEWORK/Pods-KYC_DEMO_WITH_XCFRAMEWORK-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KYC_DEMO_WITH_XCFRAMEWORK/Pods-KYC_DEMO_WITH_XCFRAMEWORK-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -503,12 +502,12 @@
 		};
 		CCC8F20F28CA631E004C150C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A62ACDCACCAF47229FE19D89 /* Pods-KYC_DEMO_WITH_XCFRAMEWORK.debug.xcconfig */;
+			baseConfigurationReference = 786C5FDAD99B80281FA94BEC /* Pods-KYC_DEMO_WITH_XCFRAMEWORK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = H22J6LYLAU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KYC_DEMO_WITH_XCFRAMEWORK/Info.plist;
@@ -533,12 +532,12 @@
 		};
 		CCC8F21028CA631E004C150C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 174416BFE6297B3A408689F9 /* Pods-KYC_DEMO_WITH_XCFRAMEWORK.release.xcconfig */;
+			baseConfigurationReference = 5813999A41532194B88782BE /* Pods-KYC_DEMO_WITH_XCFRAMEWORK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = H22J6LYLAU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KYC_DEMO_WITH_XCFRAMEWORK/Info.plist;

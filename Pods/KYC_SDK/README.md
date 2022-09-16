@@ -5,7 +5,7 @@ KYC SDK for iOS supports 13 and above
 
 ### Install iOS framework from Cocoapods
 ```
-  pod 'KYC_SDK', '~> 0.4'
+  pod 'KYC_SDK', '~> 0.5'
 ```
 
 ### Required Permissions

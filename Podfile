@@ -5,7 +5,7 @@
 target 'KYC_DEMO_WITH_XCFRAMEWORK' do
 
   # Pods for KYC_DEMO_WITH_XCFRAMEWORK
-  pod 'KYC_SDK', '~> 0.4'
+  pod 'KYC_SDK', '~> 0.5'
 end
 
 post_install do |installer|

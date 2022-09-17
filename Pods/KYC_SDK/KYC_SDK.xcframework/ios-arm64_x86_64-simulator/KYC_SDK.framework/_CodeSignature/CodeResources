@@ -74,7 +74,7 @@
 		</data>
 		<key>Modules/KYC_SDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		R0IoFYtprroTCVaVvL2grYTa5H0=
+		yjm0lrzT2oe+Tm3D+sVFa6ZbWoI=
 		</data>
 		<key>Modules/KYC_SDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Modules/KYC_SDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		R0IoFYtprroTCVaVvL2grYTa5H0=
+		yjm0lrzT2oe+Tm3D+sVFa6ZbWoI=
 		</data>
 		<key>Modules/KYC_SDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>Modules/KYC_SDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SZVJEvV3eyn54U1EHrrMv4aNyWc=
+		qKd2Q9QnfGRrxK+vYsEc5eH9PRs=
 		</data>
 		<key>Modules/KYC_SDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Modules/KYC_SDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		SZVJEvV3eyn54U1EHrrMv4aNyWc=
+		qKd2Q9QnfGRrxK+vYsEc5eH9PRs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -251,7 +251,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PgBVKyHE2wUIpd4WVVpdOGxXQNdU80yHAk2OndpqATU=
+			efC/M6OphnmJYbXjzxij1/uCaAl9orNxEYu0jsJBHn4=
 			</data>
 		</dict>
 		<key>Modules/KYC_SDK.swiftmodule/arm64.swiftdoc</key>
@@ -272,7 +272,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PgBVKyHE2wUIpd4WVVpdOGxXQNdU80yHAk2OndpqATU=
+			efC/M6OphnmJYbXjzxij1/uCaAl9orNxEYu0jsJBHn4=
 			</data>
 		</dict>
 		<key>Modules/KYC_SDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -293,7 +293,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dZXfK0ECoRdwoLiuCUBMHy21V3+vgEnZNQIJS+F+LUs=
+			zdjg6jl8y+GdBJANwU2e9DeODaCHM/hmz+NFb62J8Io=
 			</data>
 		</dict>
 		<key>Modules/KYC_SDK.swiftmodule/x86_64.swiftdoc</key>
@@ -314,7 +314,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dZXfK0ECoRdwoLiuCUBMHy21V3+vgEnZNQIJS+F+LUs=
+			zdjg6jl8y+GdBJANwU2e9DeODaCHM/hmz+NFb62J8Io=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

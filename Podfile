@@ -5,7 +5,7 @@
 target 'KYC_DEMO_WITH_XCFRAMEWORK' do
 
   # Pods for KYC_DEMO_WITH_XCFRAMEWORK
-  pod 'KYC_SDK', :git => 'https://github.com/wangosoft/KYC_SDK_XCFRAMEWORK.git'
+  pod 'KYC_SDK', '~> 0.6'
 end
 
 post_install do |installer|

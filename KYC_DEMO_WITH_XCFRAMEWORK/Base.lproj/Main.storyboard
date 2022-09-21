@@ -11,7 +11,6 @@
         <!--Navigation Controller-->
         <scene sceneID="X9j-eA-bp8">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="AWg-L5-UMB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController id="0wW-3c-X4j" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ZWG-HO-lEs">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -21,6 +20,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="1Ov-7U-3Ue"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AWg-L5-UMB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-968" y="76"/>
         </scene>
@@ -31,8 +31,28 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yIf-im-tU0">
+                                <rect key="frame" x="157" y="458" width="100" height="34"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="Fpl-DR-PbB"/>
+                                    <constraint firstAttribute="width" constant="100" id="b48-kj-AsJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Start KYC"/>
+                                <connections>
+                                    <action selector="startAct:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NP7-9c-vl4"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="yIf-im-tU0" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Iwi-1P-sep"/>
+                            <constraint firstItem="yIf-im-tU0" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="ynx-GI-Qhd"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="NGS-qe-dX1"/>
                 </viewController>

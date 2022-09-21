@@ -15,14 +15,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
         kycCore.apply(navigationController: self.navigationController!, delegate: self, signatureKey: signKey, environment: .STAGING)
-        kycCore.startKyc()
     }
 
+    @IBAction func startAct(_ sender: Any) {
+        kycCore.startKyc()
+    }
+    
 }
 
 extension ViewController: KycCoreProtocol {

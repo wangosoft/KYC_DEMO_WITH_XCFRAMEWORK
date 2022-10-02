@@ -10,7 +10,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   KYC_SDK:
-    :commit: 0818be1088f3595d168ed4843aa77bd08a1bc7fa
+    :commit: 228c4504d7e66c87484795aa48a54fef410e2cbb
     :git: https://github.com/wangosoft/KYC_SDK_XCFRAMEWORK.git
 
 SPEC CHECKSUMS:

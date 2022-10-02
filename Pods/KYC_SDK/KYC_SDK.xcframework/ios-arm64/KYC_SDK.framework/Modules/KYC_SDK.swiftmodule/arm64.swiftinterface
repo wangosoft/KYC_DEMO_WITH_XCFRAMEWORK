@@ -22,6 +22,8 @@ public protocol KycCoreProtocol {
   public static func getInstance() -> KYC_SDK.KycCore
   final public func apply(navigationController: UIKit.UINavigationController, delegate: KYC_SDK.KycCoreProtocol?, signatureKey: Swift.String, environment: KYC_SDK.Environment)
   final public func startKyc()
+  final public func destroy()
+  final public func finishCoreKycActivity()
   @objc override dynamic public init()
   @objc deinit
 }
